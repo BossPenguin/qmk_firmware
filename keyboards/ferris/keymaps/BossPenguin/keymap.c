@@ -13,6 +13,7 @@ enum custom_keycodes {
     LAYER2,
     LAYER3,
     LAYER4,
+    LAYER5,
 };
 
 enum combos {
