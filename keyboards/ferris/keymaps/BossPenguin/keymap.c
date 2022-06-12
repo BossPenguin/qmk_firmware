@@ -31,7 +31,7 @@ enum combos {
 uint16_t COMBO_LEN = COMBO_LENGTH; // Nifty Trick continued
 
 // Combo key definition
-const uint16_t PROGMEM lshiftspace_combo[] = {KC_LSFT, KC_SPC, COMBO_END};
+const uint16_t PROGMEM backspacespace_combo[] = {KC_BSPC, KC_SPC, COMBO_END};
 const uint16_t PROGMEM io_combo[] = {KC_I, KC_O, COMBO_END};
 const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM kl_combo[] = {KC_K, KC_L, COMBO_END};
@@ -44,7 +44,7 @@ const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
 
 // Combo key mapping...
 combo_t key_combos[] = {
-    [COMBO_LAYER3] = COMBO(lshiftspace_combo, TT(3)),
+    [COMBO_LAYER3] = COMBO(backspacespace_combo, TT(3)),
     [COMBO_UP] = COMBO(io_combo, KC_UP),
     [COMBO_LEFT] = COMBO(jk_combo, KC_LEFT),
     [COMBO_DOWN] = COMBO(kl_combo, KC_DOWN),
