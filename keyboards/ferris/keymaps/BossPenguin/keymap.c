@@ -38,7 +38,7 @@ uint16_t COMBO_LEN = COMBO_LENGTH; // Nifty Trick continued
 
 // Combo key definition
 const uint16_t PROGMEM backspacespace_combo[] = {KC_BSPC, KC_SPC, COMBO_END};
-const uint16_t PROGMEM qwop_combo[] = {KC_Q, KC_W, KC_O, KC_P, COMBO_END}
+const uint16_t PROGMEM qwop_combo[] = {KC_Q, KC_W, KC_O, KC_P, COMBO_END};
 const uint16_t PROGMEM fbspcspcj_combo[] = {KC_F, KC_BSPC, KC_SPC, KC_J, COMBO_END};
 const uint16_t PROGMEM zbspcspcslash_combo[] = {KC_Z, KC_BSPC, KC_SPC, KC_SLSH, COMBO_END};
 /*const uint16_t PROGMEM io_combo[] = {KC_I, KC_O, COMBO_END};
