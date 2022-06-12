@@ -6,6 +6,7 @@
 #define _LAYER2 2
 #define _LAYER3 3
 #define _LAYER4 4
+#define _LAYER5 5
 
 enum custom_keycodes {
     LAYER0 = SAFE_RANGE,
