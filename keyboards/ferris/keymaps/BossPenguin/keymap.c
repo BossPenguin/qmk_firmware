@@ -54,7 +54,7 @@ const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};*/
 // Combo key mapping...
 combo_t key_combos[] = {
     [COMBO_LAYER3] = COMBO(backspacespace_combo, TT(3)),
-    [COMBO_LAYER4] = COMBO(tbspcspcy_combo, TG(4)),
+    [COMBO_LAYER4] = COMBO(qwop_combo, TG(4)),
     [COMBO_LAYER0] = COMBO(zbspcspcslash_combo, DF(0)),
     [COMBO_COLEMAK] = COMBO(fbspcspcj_combo, DF(5)),
     /*[COMBO_UP] = COMBO(io_combo, KC_UP),
